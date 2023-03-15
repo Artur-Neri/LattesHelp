@@ -25,6 +25,17 @@ body {
 
 }
 
+.agradecimento {
+  background-color: white;
+  width: 830px;
+  height: fit-content;
+
+  padding: 20px 0;
+  border-radius: 10px;
+  text-align: center;
+  margin: 40px auto;
+}
+
 .apresentacao {
   display: flex;
   gap: 30px;
