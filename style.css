@@ -122,7 +122,7 @@ body {
   width: 300px;
 }
 
-form {
+.form {
   display: flex;
   gap: 15px;
 }
@@ -178,6 +178,11 @@ input[type=number] {
 .btn {
   display: flex;
   justify-content: end;
+}
+
+.button-line {
+  display: flex;
+  justify-content: right;
 }
 
 #submitbtn {
