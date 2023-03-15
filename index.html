@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Lattes Help!</title>
+</head>
+<body>
+  <header>
+
+  </header>
+  <main>
+    <div class="container">
+      <section class="apresentacao">
+        <img src="assets/imagens/logo-ajustado.webp" alt="latteshelp" class="logo">
+        <div class="ap_right">
+          <h2>Currículo Lattes | Cadastro e Atualização</h2>
+          <div class="socials">
+            <div class="email">
+              <img src="assets/imagens/mail.png" alt="email" class="icon">
+              <p>latteshelpcontato@gmail.com</p>
+            </div>
+            <div class="instagram">
+              <img src="assets/imagens/instagram.png" alt="instagram" class="icon">
+              <p><a href="https://www.instagram.com/la.tteshelp/" target="_blank">la.tteshelp</a></p>
+            </div>
+          </div>
+        </div>
+        
+      </section>
+      <section class="sobre">
+        <p>Muitos sabem que o currículo Lattes é um diferencial, mas poucos têm disponibilidade ou facilidade para criar ou mantê-lo atualizado. Por isso, coloco-me à disposição para ajudá-los com o que for necessário. Ficou interessado? Entre em contato e mande "help!".</p>
+      </section>
+      <section class="contato">
+        
+        <h3>Contato</h3>
+        <form action="https://formsubmit.co/arturnerictt@gmail.com" method="POST">
+          <div class="form-left">
+            <input type="text" placeholder="Nome">
+            <input type="email" placeholder="Email" required>
+            <input type="number" placeholder="Whatsapp (opcional)">
+            <fieldset>
+              <legend>Serviço desejado:</legend>
+              <input type="radio" name="service" id="cri" checked> <label for="cri">Criar Lattes</label> 
+              <input type="radio" name="service" id="att"><label for="att"> Atualizar Lattes </label>
+              <input type="radio" name="service" id="catt"> <label for="catt">Criar e atualizar Lattes</label>
+            </fieldset>
+            <div class="service">
+              <label for="servico">Serviço desejado:</label>
+              <select name="servico" id="service">
+                <option name = 'criar' value="criar">Criar Lattes</option>
+                <option name = 'atualizar' value="atualizar">Atualizar Lattes</option>
+                <option name = 'criar' value="criareatualizar">Criar e atualizar Lattes</option>
+              </select>
+            </div>
+            
+          </div>
+          <div class="form-right">
+            <textarea name="relato" id="relato" cols="30" rows="7" placeholder="Breve relato (opcional)"></textarea>
+          </div>
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+          <button type="submit" id="submitbtn">Enviar</button>
+        </form>
+        <!-- <form action="processar_formulario.php">
+          <div class="form-left">
+            <input type="text" placeholder="Nome">
+            <input type="email" placeholder="Email" required>
+            <input type="number" placeholder="Whatsapp (opcional)">
+            <fieldset>
+              <legend>Serviço desejado:</legend>
+              <input type="radio" name="service" id="cri" checked> <label for="cri">Criar Lattes</label> 
+              <input type="radio" name="service" id="att"><label for="att"> Atualizar Lattes </label>
+              <input type="radio" name="service" id="catt"> <label for="catt">Criar e atualizar Lattes</label>
+            </fieldset>
+            <div class="service">
+              <label for="servico">Serviço desejado:</label>
+              <select name="servico" id="service">
+                <option value="criar">Criar Lattes</option>
+                <option value="atualizar">Atualizar Lattes</option>
+                <option value="criareatualizar">Criar e atualizar Lattes</option>
+              </select>
+            </div>
+            
+          </div>
+          <div class="form-right">
+            <textarea name="relato" id="relato" cols="30" rows="7" placeholder="Breve relato (opcional)"></textarea>
+          </div>
+          
+        </form> -->
+        <!-- <div class="btn">
+          <input type="submit" value="Enviar" id="submitbtn">
+        </div> -->
+      </section>
+    </div>
+  </main>
+</body>
+</html>
